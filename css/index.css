@@ -46,6 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*------------------------------------------------*/
+/* Start code */
+
+
+
+
+
+
 
 * {
     box-sizing: border-box;
@@ -66,6 +74,43 @@ p {
     line-height: 1.4;
 }
 
+/* HEADER---------------------------------------*/
+
+
+.nav-top {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    width: 880px;
+    justify-content: space-around;
+    align-content: center;
+    padding: 40px 0;
+
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav img {
+    margin-top: -30px;
+    padding-bottom: 10px;
+}
+
+.header-img {
+    display: flex;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/* ------------------------------------------------------------ */
+/*       index.html Body and content before boxes               */
+/* ------------------------------------------------------------ */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,7 +129,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/*----------------------------------------------------------------*/
+/*     index.html Middle Section with boxes!                      */
+/*----------------------------------------------------------------*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +159,51 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box-1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background-color:coral;
+}
+
+.middle-content .boxes .box-5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background-color: dodgerblue;
+}
+
+/* ------------------------------------------------------------ */
+/*             index.html Section Below middle box section      */
+/* ------------------------------------------------------------ */
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +217,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* ------------------------------------------------------------ */
+/*                         Footer with Nav                      */
+/* ------------------------------------------------------------ */
 
 footer {
     width: 100%;
@@ -144,3 +240,112 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/*-------------------------------------------------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------- */
+/*-------------------------------------------------------------------------------------------- */
+/*                                          About Page                                         */
+/*-------------------------------------------------------------------------------------------- */
+/*     about.html after header and before footer sections       */
+/* ------------------------------------------------------------ */
+
+
+.about-page-top {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+  
+  }
+
+  .about-page-bottom {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    padding: 30px 20px 20px 20px;
+    
+  
+  }
+
+  /* ------------------------------------------------------------ */
+  /*     about.html middle section with 4 box-like sections       */
+  /* ------------------------------------------------------------ */
+
+
+
+  .about-boxes-1 {
+      display: flex;
+      flex-flow: row;
+      margin: auto;
+      width: 800px;
+      height: 450px;
+    
+  }
+
+  .about-boxes-2 {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+    width: 800px;
+    height: 450px; 
+    
+  
+}
+
+  .about-offices {
+      
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      width: 380px;
+      height: 450px;
+      margin: auto;
+      padding: 10px 0px 10px 0;
+      
+      border-bottom: 1px dashed black;
+      
+      
+  }
+  
+  .about-boxes-heading {
+      padding-top: 10px; 
+  }
+
+  .Learn-More-Button {
+      border: 2px solid black;
+      display: flex;  
+      border-radius: 10px;
+      text-decoration: none;
+      justify-content: space-evenly;
+      color: black;
+      height: 40px; 
+      width: 120px;
+      text-align: center;
+      padding-top: 10px; 
+      
+  }
+
+
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
+/* -----------------------Product Page-----------------------------------------------*/
+/* --------------------------------------------------------------------------------- */
+
+.header-img-2 {
+    display: flex;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 800px;
+    height: 158px; 
+}
+
